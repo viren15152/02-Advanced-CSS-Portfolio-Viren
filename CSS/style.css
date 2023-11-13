@@ -10,7 +10,7 @@ body {
     padding: 4px;
     flex-direction: column;
     line-height: 2;
-    background-color: #d9dcd6;
+    background-color: black;
     color: #000000;
 }
 
@@ -27,8 +27,8 @@ header {
 
 header nav {
     margin-right: 10px;
-    display: flex; /* Add display: flex to the nav container */
-    align-items: center; /* Center items vertically */
+    display: flex; 
+    align-items: center; 
 }
 
 nav ul {
@@ -85,18 +85,23 @@ nav a {
 }
 
 .project-section {
-    background-color: whitesmoke;
+    background-color: black;
     padding: 20px; 
     margin: 20px; 
     font-family: 'Arial', Helvetica, sans-serif;
 }
 
 body .project-section {
-    background-color: whitesmoke;
+    background-color: black;
     padding: 20px; 
     margin: 20px; 
     font-family: 'Arial', sans-serif; 
     font-size: 20px;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 
 
