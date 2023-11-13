@@ -9,6 +9,7 @@
     <meta name="keywords" content="HTML, CSS">
     <meta name="author" content="Viren Lala">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" type="text/css" href="./css/reset.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
@@ -18,7 +19,7 @@
 
     <header>
         <div class="box">
-            <h1 class="title">Advanced CSS Portfolio</h1>
+            <h1 class="title">Viren Lala Portfolio Page</h1>
             <p>
                 I am new to Full Stack Web Development but I am building up my portfolio during my Coding Bootcamp at Birmingham
                 University.
@@ -36,30 +37,41 @@
     </header>
     <section id="About Me">
         <div style="float:right;">
+            <section>
             <h2>CSS Portfolio Page</h2>
+        </section>
         </div>
         <div style="float:left;">
             <img src="https://t4.ftcdn.net/jpg/01/26/61/13/360_F_126611337_m8kcRtS5G7AhrFpOQ0Wufx4PgL6J4yxg.jpg"
                 width="400" height="300" alt="Profile Picture" class="profile picture">
         </div>
         <div class="box">
-            <h2 style="color: black;font-size:30px;font-family: Arial, Helvetica, sans-serif;">Hello my name is Viren I'm from the UK and I have just began my journey as a web designer. Thank you for taking the time to view my portfolio page.</h2>
-            <p style="color:black;font-size:30px;font-family: Arial, Helvetica, sans-serif;">This is my CSS Portfolio page for all the current projects that I have completed.</p>
+            <h2 style="color: black;font-size:20px;font-family: Arial, Helvetica, sans-serif;">Hello my name is Viren I'm from the UK and I have just began my journey as a web designer. Thank you for taking the time to view my portfolio page.</h2>
+            <p style="color:black;font-size:20px;font-family: Arial, Helvetica, sans-serif;">This is my CSS Portfolio page for all the current projects that I have completed.</p>
         </div>
     </section>
-    <h2 id="HTML/CSS Projects">HTML/CSS Projects</h2>
+    <section class="project-section">
+    <h2 id="HTML/CSS Projects">HTML,CSS & JavaScript Projects</h2>
+</section>
     <main>
         <section>
-            <a href=""><img src="" /></a> <!--I will add more content when I have completed it-->
             <header>
-                <h3><a href="">Prework Study Guide</a></h3> <!--I will add the link once I have finished it completely-->
+                <h3><a href="https://viren15152.github.io/06-Weather-Dashboard-Server-Side-APIs-Viren/">Weather Dashboard</a></h3> 
             </header>
         </section>
         <section>
-            <a href="https://viren15152.github.io/Week-1-Code-Refactor-Viren/"><img src="" /></a>
             <header>
-            <h3>Horiseon SEO page</h3>
-            <button type="button" onclick="alert('Thank You')">Click</button>
+            <h3><a href="https://viren15152.github.io/01-Code-Refactor-Viren/">Horiseon SEO page</a></h3>
+            </header>
+        </section>
+        <section>
+            <header>
+                <h3><a href="https://viren15152.github.io/05-Third-Party-APIs-Work-Day-Scheduler-Viren/">Third-Party-APIs-Work-Day-Scheduler</a></h3>
+            </header>
+        </section>
+        <section>
+            <header>
+                <h3><a href="">Recipe Group Project</a></h3>
             </header>
         </section>
     </main>
@@ -67,15 +79,14 @@
 
     <footer>
         <div class="div wrapper">
-            <a href="https://linkedin.com/your/profile/url" target="blank" id="social" alt="linkedin"><img
-                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAaVBMVEUAd7X///8AcLEEebb7/f4Debb9/v79/v8DeLY8l8Y7lsYAbbCcyuKlz+WQxN+Lwd0KfbiDvdvl8fcAc7O+3OwgiL6x1ehFnMlytNZqsNQZhLzF4O7w9/tSo81gqtGp0ebc7PUsjsJ8udngaOvIAAADg0lEQVRoge2abZeqIBCAGV7EjXItKjc1y/7/j7xD7m5AWHdD+uScs3s8kDzOIMwMDoGrSJ4lEC6H0ckVkUEiyeQPBC+ar+pjcqm+GsQMEAntUSuaQJQ+toZC8F+7U4KJBMKE6ltUwkAqJUgiEapCAJGwpSwVgxBGtyAJh4NKCVEH4AStRZNZC+1F0V5orgXN00FyukBzZekh2XsgbzFXCMIGSQlhTCsjegrMCEQQVXfF8rOrFYm3YxjCdFnw6zbdFkJHr6AgROjdGYAbATjXOlaXEISRcgN88GEZh3NJIuclBBF0BfzXr3EoYve1ACTXPViuOAO+izRYAMLUxVLEqBK7RQcggp48yHJ6SG5cjAWRsI/0A0FN9g6Ew2p6TZhae+a6pDDXwn67UKt++rcL3+Gts072sW4gDOn5L4VjRBa7rwT3LkarDMNvmeEf8EV0tDSyC9O++dZku4uPyEb8CdO6KrbNtvjQOt5rjXnGnGGkrKmibALfP+7jBQ6fs0lCvnHIn4Tlj2KBsTkJX4cGYgLH1yiD8n+A/LcgACevrHe7ujRXQYXCEFHaIsLNZjgMnMrjstm0nLebZnXodSi6Cbvfz3Zzk3Y97I/ozOxmE2Dkql5vnCS0OQbe+WAgoZbOjcUPpLBbeU0I7dprZi4xlZYyM8ENNP3d6h2DcPkj/Ab5vDVjkllrgg/DpfNA+HN59D3DKMTahW3ILbxoa3Ru/D75x59Uni6vQ3hZOL7N8j9+ePMqRMLmACNnGHce6FUItrcgA4ThCdwU9HUIjDLuVImAjB/4+EFnjCZXba6xv/SU8oLOOEhmvQgu5GRPShQER25Pl667nFrXeBmc7ZUSA8FxLyU1mSWtTw7Fm5S4ia/Ud5KsnVtM34dlrwiIxNkV31ZhhG1sXTh01sy/DkG7W55SqC9npcLXJBBvHEzPLFU4rCeBgBeHs7MDKaaA4A5ZWggvdXKzs5chGTSOn2XKTZlX02jiJnnGOU8O8ZO8u146CWTpQdYzZIbMkBkyQ2bIDJkhA+QmDsRqDkCs3tXTqH4FtiyDxx6BkMiW/ZO4K6eH/eom+27oy2nnNB+8DPfo9j5JgswBk/PVnj1sfnzTKMScPVpf7fMnzU97JzqDfCxvhMxfsf8Ake8pX3hLIUbqkhJtSkpSF8ccTXGMKSXqk5f5vKVg6Xpkkbz06j1FZJC6HO4fbRVnSvd35FUAAAAASUVORK5CYII="></a><!-- LinkedIn Profile will insert when Updated-->
-            <a href="https://twitter.com/viren15152" target="_blank" id="social" alt="twitter"><img
-                    src="data:image/png;base64,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"></a><!--Twitter Link will insert when updated -->
-            <a href="mailto:viren15152@gmail.com" id="social" alt="mail"><img
-                    src="https://seeklogo.com/images/M/mail-post-symbol-logo-C7C3A0C8BD-seeklogo.com.png"></a><!-- Email address-->
+            <a href="https://linkedin.com/your/profile/url" target="blank" id="social" alt="linkedin">Linkedin<img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAaVBMVEUAd7X///8AcLEEebb7/f4Debb9/v79/v8DeLY8l8Y7lsYAbbCcyuKlz+WQxN+Lwd0KfbiDvdvl8fcAc7O+3OwgiL6x1ehFnMlytNZqsNQZhLzF4O7w9/tSo81gqtGp0ebc7PUsjsJ8udngaOvIAAADg0lEQVRoge2abZeqIBCAGV7EjXItKjc1y/7/j7xD7m5AWHdD+uScs3s8kDzOIMwMDoGrSJ4lEC6H0ckVkUEiyeQPBC+ar+pjcqm+GsQMEAntUSuaQJQ+toZC8F+7U4KJBMKE6ltUwkAqJUgiEapCAJGwpSwVgxBGtyAJh4NKCVEH4AStRZNZC+1F0V5orgXN00FyukBzZekh2XsgbzFXCMIGSQlhTCsjegrMCEQQVXfF8rOrFYm3YxjCdFnw6zbdFkJHr6AgROjdGYAbATjXOlaXEISRcgN88GEZh3NJIuclBBF0BfzXr3EoYve1ACTXPViuOAO+izRYAMLUxVLEqBK7RQcggp48yHJ6SG5cjAWRsI/0A0FN9g6Ew2p6TZhae+a6pDDXwn67UKt++rcL3+Gts072sW4gDOn5L4VjRBa7rwT3LkarDMNvmeEf8EV0tDSyC9O++dZku4uPyEb8CdO6KrbNtvjQOt5rjXnGnGGkrKmibALfP+7jBQ6fs0lCvnHIn4Tlj2KBsTkJX4cGYgLH1yiD8n+A/LcgACevrHe7ujRXQYXCEFHaIsLNZjgMnMrjstm0nLebZnXodSi6Cbvfz3Zzk3Y97I/ozOxmE2Dkql5vnCS0OQbe+WAgoZbOjcUPpLBbeU0I7dprZi4xlZYyM8ENNP3d6h2DcPkj/Ab5vDVjkllrgg/DpfNA+HN59D3DKMTahW3ILbxoa3Ru/D75x59Uni6vQ3hZOL7N8j9+ePMqRMLmACNnGHce6FUItrcgA4ThCdwU9HUIjDLuVImAjB/4+EFnjCZXba6xv/SU8oLOOEhmvQgu5GRPShQER25Pl667nFrXeBmc7ZUSA8FxLyU1mSWtTw7Fm5S4ia/Ud5KsnVtM34dlrwiIxNkV31ZhhG1sXTh01sy/DkG7W55SqC9npcLXJBBvHEzPLFU4rCeBgBeHs7MDKaaA4A5ZWggvdXKzs5chGTSOn2XKTZlX02jiJnnGOU8O8ZO8u146CWTpQdYzZIbMkBkyQ2bIDJkhA+QmDsRqDkCs3tXTqH4FtiyDxx6BkMiW/ZO4K6eH/eom+27oy2nnNB+8DPfo9j5JgswBk/PVnj1sfnzTKMScPVpf7fMnzU97JzqDfCxvhMxfsf8Ake8pX3hLIUbqkhJtSkpSF8ccTXGMKSXqk5f5vKVg6Xpkkbz06j1FZJC6HO4fbRVnSvd35FUAAAAASUVORK5CYII=" class="img"></a><!-- LinkedIn Profile will insert when Updated-->
+            <a href="https://twitter.com/viren15152" target="_blank" id="social" alt="twitter">Twitter<img
+                    src="data:image/png;base64,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" class="img"></a><!--Twitter Link will insert when updated -->
+            <a href="mailto:viren15152@gmail.com" id="social" alt="mail">Email<img
+                    src="https://seeklogo.com/images/M/mail-post-symbol-logo-C7C3A0C8BD-seeklogo.com.png" class="img"></a><!-- Email address-->
         </div>
     </footer>
 </body>
 
 </html>
-<!--I have not completed the page I know it contains mistakes but I will improve it when I submit it again-->
