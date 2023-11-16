@@ -6,7 +6,7 @@
 The aim for this web application was to create portfolio page to display some of the projects that I have completed to showcase my ability using HTML & CSS. 
 
 ## Visuals:
-**Screenshot**:
+**Screenshot**:![Screenshot of portfolio page](<Screenshot 2023-11-16 at 05.12.03.png>)
 
 ## Technology Used:
 HTML5
